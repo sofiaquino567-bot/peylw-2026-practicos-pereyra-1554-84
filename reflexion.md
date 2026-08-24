@@ -9,3 +9,4 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   index.html
 3. Explique con sus palabras cuál es la diferencia entre el área de preparación (staging area) y el directorio de trabajo (working directory) de Git.
+El working directory es donde hago los cambios en mis archivos; carpeta de trabajo y modifico los archivos. La staging area es donde preparo esos cambios que quiera guardar con git add antes de finalizar guardándolos con git commit -m "x cambio" en Git, y con git push los subo a la nube de GitHub.
