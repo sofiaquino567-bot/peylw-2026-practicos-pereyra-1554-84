@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- TOKEN-ALUMNO: pereyra-1554-84 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego - Portal de Sofia Pereyra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+    <!--Encabezado-->
+    <header>
+        <h1>Portal de Sofia Pereyra - pereyra-1554-84</h1>
+        <img src="img/logoCURZAS.png" alt="Logo CURZAS" class="logo-curza"> 
+
+    <!--Navegación-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="juego.html">Juego</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!--Contenido de la página-->
+    <main>
+        <h2>Área de Juegos de Sofia Pereyra - Token: pereyra-1554-84</h2>
+
+        <section id="panel-estadisticas">
+            <!--Muestra los datos que corresponden al juego-->
+            <h3>Panel de estadísticas</h3>
+            
+            <!--Cantidad de intentos-->
+            <p>
+                Intentos:<span id="intentos">0</span>
+            </p>
+
+            <!--Pares encontrados-->
+            <p>
+                Pares encontrados:<span id="pares-encontrados">0</span>
+            </p>
+            
+            <!--Récord-->
+            <p>
+                Récord actual:<span id="record">Sin registro</span>
+            </p>
+
+        </section>
+
+        <section id="area-interactiva">
+            <h3>Área interactiva</h3>
+            <h4>¡Poné a prueba tu memoria con el Memotest! </h4>
+            <p>
+                El objetivo es encontrar las 8 parejas de imágenes iguales. Para jugar, seleccioná dos 
+                cartas por turno y descubrí qué imágenes esconden. Si coinciden, quedarán visibles; si 
+                son diferentes, volverán a ocultarse después de unos segundos.
+            </p> 
+            <p>
+                ¡Encontrá todas las parejas en la menor cantidad de intentos posible y superá tu propio récord!
+            </p>
+                
+            <!--Cartas (elementos con los que juega la persona)-->
+            <ul id="tablero-memotest"> </ul>
+            <button id="btn-reiniciar-pereyra-1554-84">Reiniciar partida</button>
+
+        </section>
+
+        <section id="panel-mensajes">
+            <h3>Panel de mensajes</h3>
+            
+            <!--Mensajes dinámicos-->
+            <p>
+                <span id="mensaje-juego">¡Bienvenido al Memotest!</span>
+            </p>
+        </section>
+    </main>
+
+    <!-- Pie de página-->
+    <footer>
+        <p>&copy; 2026 Sofia Pereyra, CURZAS - UNCo, Viedma, Río Negro [pereyra-1554-84]</p>
+    </footer>
+
+    <a href="#top" class="volver-inicio">Inicio ▲</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
